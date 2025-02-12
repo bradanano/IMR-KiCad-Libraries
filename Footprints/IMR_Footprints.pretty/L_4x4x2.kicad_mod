@@ -1,0 +1,183 @@
+(footprint "L_4x4x2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Inductor SMD4x4x2mm")
+	(tags "Inductor SMD")
+	(property "Reference" "REF**"
+		(at 0 -4.45 0)
+		(layer "F.SilkS")
+		(uuid "fac95504-fd23-4f2e-ad31-6da8dc2ed28a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_4x4x2"
+		(at 0 4.45 0)
+		(layer "F.Fab")
+		(uuid "b10d69c1-f614-47cd-b8c1-d7e4d492ef18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "L_4x4x2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "657c50cc-3ef8-4d1d-9c11-b6f48a8de884")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 1.4 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85a33568-0c87-494b-886a-98fd30ddbb65")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 1.4 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02444711-397d-4562-ab49-e162254e06f9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -2.1)
+		(end -2 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "073ceb1f-c99e-47d6-b345-f03d0306375e")
+	)
+	(fp_line
+		(start -2 -2.1)
+		(end 2 -2.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7b0a04ac-db46-45eb-a971-cc3af2fe1bac")
+	)
+	(fp_line
+		(start -2 1.9)
+		(end -2 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee37a0f3-b995-4b6c-9513-5d9439f3bf71")
+	)
+	(fp_line
+		(start -2 1.9)
+		(end 2 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "626ce383-1343-40e3-993b-329ee04b40b3")
+	)
+	(fp_line
+		(start 2 -2.1)
+		(end 2 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "32caf421-09c3-4717-bb9d-9502217be503")
+	)
+	(fp_line
+		(start 2 1.9)
+		(end 2 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "934951ea-ca93-4711-bd2b-cb4924b2c4d8")
+	)
+	(fp_rect
+		(start -2.1 -2.2)
+		(end 2.1 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "bb8ab21b-9e37-479d-8d9f-24994d6a428d")
+	)
+	(fp_rect
+		(start -2 -2.1)
+		(end 2 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "030124cf-2cc3-416f-ba49-c1e917858826")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "184540ae-9b8b-4a39-b3ba-a772ff0f4032")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.35 -0.1)
+		(size 1.1 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "560373e3-8d14-4aa6-a1a0-39f4d5a427d6")
+	)
+	(pad "2" smd rect
+		(at 1.3 -0.1)
+		(size 1.1 3.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "53b4beeb-baec-484e-bd54-18f897331687")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_6.3x6.3_H3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

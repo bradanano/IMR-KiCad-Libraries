@@ -1,0 +1,148 @@
+(footprint "PT4115_SOT-89-5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "5 Lead Small Plastic Outline Transistor Header (MT) SOT-89")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "62afbe0c-bb6e-4a5c-8f50-ddae436b6a00")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PT4115_SOT-89-5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "df046f2b-517b-4280-bbfa-beac53c7d83a")
+		(effects
+			(font
+				(size 0.787402 0.787402)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PT4115_SOT-89-5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4b433ae-0774-4c64-aa9e-d2d3e8fd83c5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5fe9ce3-8dc0-40d0-8b85-dc522f858e7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dbe906ff-7fff-4dfa-9901-36d801d86527")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy -1 -0.4) (xy -1 0.4) (xy 0 1.4) (xy 1 0.4) (xy 1 -0.4) (xy 0 -1.4)
+		)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "eb91c97e-c15b-4390-84f8-6a4476e3e9b7")
+	)
+	(fp_circle
+		(center -1.5 3.175)
+		(end -1.15 3.175)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "5fa09c24-b33c-489c-ac9e-574d30edea64")
+	)
+	(pad "1" smd rect
+		(at -1.5 1.85)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d7966694-cd76-4211-bef7-36567dca0934")
+	)
+	(pad "2" smd custom
+		(at 0 0)
+		(size 1 5.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -1 -0.4) (xy -1 0.4) (xy 0 1.4) (xy 1 0.4) (xy 1 -0.4) (xy 0 -1.4)
+				)
+				(width 0.127)
+				(fill yes)
+			)
+		)
+		(uuid "15c98cbe-e44b-416b-848d-f2b2aeab6faa")
+	)
+	(pad "3" smd rect
+		(at 1.5 1.85)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "4290fb9c-3e58-4d2b-8711-11afbc25283e")
+	)
+	(pad "4" smd rect
+		(at 1.5 -1.85)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "f00de948-c86a-4d78-b867-cf125bdb69da")
+	)
+	(pad "5" smd rect
+		(at -1.5 -1.85)
+		(size 0.7 1.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "9f7ea35c-f3e1-4489-a5cb-8bf57f06b095")
+	)
+	(model "${KICAD_LIB_PATH}/3DModels/PT4115.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
