@@ -1,0 +1,233 @@
+(footprint "DO-214AC"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Jedec DO-214AC diode package. Designed according to Vishay datasheet.")
+	(tags "DO-214AC diode")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "c34ea5bb-8288-4f08-ae70-8644e7fcda36")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DO-214AC"
+		(at 0 0.75 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63ee95f5-4e0f-4580-9f1a-d2d8c7d716c2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e263ee63-0609-40b1-bd82-b4540d338c3c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "221e89b6-ad85-499d-8f5f-9bd5f5105a4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b1c1902-b0e0-4f87-b73b-f0249ff960e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(solder_mask_margin 0.05)
+	(attr smd)
+	(fp_line
+		(start -2.75 -1.25)
+		(end -2.75 1.25)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "137f35e3-2d23-4650-94c1-d9180fd57265")
+	)
+	(fp_line
+		(start -2.5 -1.5)
+		(end 2.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6f49468-d692-4b2d-8089-56828d5dcf5b")
+	)
+	(fp_line
+		(start -2.5 1.5)
+		(end -2.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e35a9807-825a-4f50-8ffc-59e8a3691484")
+	)
+	(fp_line
+		(start 2.5 -1.5)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d1e2498f-3f51-43a4-bc27-e1f7762872a0")
+	)
+	(fp_line
+		(start 2.5 1.5)
+		(end -2.5 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9bd87023-0a33-41b9-a896-5b2a64a0511f")
+	)
+	(fp_line
+		(start -2.25 -1.27)
+		(end 2.25 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09fd0243-e85f-4929-9a21-ade112828a1e")
+	)
+	(fp_line
+		(start -2.25 1.27)
+		(end -2.25 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "521a1fef-477f-46b4-b887-9ec1ea581421")
+	)
+	(fp_line
+		(start -1 -1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1045d92-b8d2-4f36-9602-e18812284b04")
+	)
+	(fp_line
+		(start 0.5 -1)
+		(end -1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f03dba88-4e2c-4e34-a2d2-2904ef6c0eb9")
+	)
+	(fp_line
+		(start 0.5 -1)
+		(end 0.5 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "720ad40a-7807-46fb-9049-5f9de7b9d6e7")
+	)
+	(fp_line
+		(start 0.5 1)
+		(end -1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94037d15-f70e-4925-b208-056a3c40b730")
+	)
+	(fp_line
+		(start 2.25 -1.27)
+		(end 2.25 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7b4ed734-b716-4bea-82b5-40e3a8b05ac4")
+	)
+	(fp_line
+		(start 2.25 1.27)
+		(end -2.25 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "efaf6324-9993-48d7-ac15-1d0b9a60f23f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2 0)
+		(layer "F.Fab")
+		(uuid "8acf11f0-b684-4543-957d-0d6977154ada")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(pad "A" smd rect
+		(at 1.7 0)
+		(size 1.52 1.68)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2394697c-b4d9-48c3-872c-1e247144a250")
+	)
+	(pad "C" smd rect
+		(at -1.7 0)
+		(size 1.52 1.68)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a2231391-60d5-4258-824a-c5848cbb3454")
+	)
+	(model "C:/Cad/Footprint/Diodes/3D/User Library-DO-214AC(SMA).step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
