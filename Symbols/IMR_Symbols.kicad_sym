@@ -12849,7 +12849,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "Microfit_2_Vie_1724480002"
+	(symbol "Microfit_2_Vie_436500201"
 		(pin_names
 			(offset 1.016)
 		)
@@ -12859,7 +12859,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
-			(at -7.62 3.81 0)
+			(at 0 3.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12869,8 +12869,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "Microfit_2_Vie_1724480002"
-			(at -7.62 -5.08 0)
+		(property "Value" "Microfit_2_Vie_436500201"
+			(at 0 -7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12880,7 +12880,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "IMR_Footprints:Microfit_2_Vie_1724480002"
+		(property "Footprint" "436500201:MOLEX_436500201"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12904,7 +12904,7 @@
 			)
 		)
 		(property "Description" ""
-			(at -0.254 -8.382 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -12915,10 +12915,70 @@
 				(justify bottom)
 			)
 		)
-		(symbol "Microfit_2_Vie_1724480002_0_0"
+		(symbol "Microfit_2_Vie_436500201_0_0"
 			(polyline
 				(pts
-					(xy -7.62 0) (xy -5.715 0)
+					(xy 0 1.27) (xy 0 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 1.27) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 0) (xy 1.905 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 1.905 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -3.81) (xy 1.27 -5.08)
 				)
 				(stroke
 					(width 0.254)
@@ -12929,19 +12989,8 @@
 				)
 			)
 			(rectangle
-				(start -7.62 -2.54)
-				(end 7.62 2.54)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
-				)
-			)
-			(rectangle
-				(start -6.985 -0.3175)
-				(end -5.3975 0.3175)
+				(start 0.635 -0.3175)
+				(end 2.2225 0.3175)
 				(stroke
 					(width 0.1)
 					(type default)
@@ -12951,8 +13000,8 @@
 				)
 			)
 			(rectangle
-				(start 5.3975 -0.3175)
-				(end 6.985 0.3175)
+				(start 0.635 -2.8575)
+				(end 2.2225 -2.2225)
 				(stroke
 					(width 0.1)
 					(type default)
@@ -12963,7 +13012,31 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 0) (xy 5.715 0)
+					(xy 1.27 -5.08) (xy 7.62 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.54) (xy 1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 -5.08) (xy 7.62 2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -12974,7 +13047,7 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 0 0)
+				(at -5.08 0 0)
 				(length 5.08)
 				(name "1"
 					(effects
@@ -12992,7 +13065,7 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 0 180)
+				(at -5.08 -2.54 0)
 				(length 5.08)
 				(name "2"
 					(effects
